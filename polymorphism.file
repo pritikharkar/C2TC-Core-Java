@@ -1,0 +1,65 @@
+class Parent
+
+{
+
+           void display()
+
+            {
+
+                      System.out.println(“Parent class”);
+
+             }
+
+}
+
+class ChildClass1 extends Parent
+
+{
+
+          void display()
+
+          {
+
+                        System.out.println(“child_class1”);
+
+          }
+
+}
+
+class Childclass2  extends Parent
+
+{
+
+          void display()
+
+          {
+
+                       System.out.println(“child_class2”);
+
+           }
+
+}
+
+class Test
+
+{
+
+             public static void main(String[] args)
+
+             {
+
+                        Parent p;
+
+                        p = new ChildClass1();
+
+                        p.show();
+
+                         p = new ChildClass2();
+
+                         p.show();
+
+            }
+
+}
+
+
