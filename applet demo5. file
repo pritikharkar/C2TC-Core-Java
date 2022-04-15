@@ -1,0 +1,19 @@
+
+import java.applet.*;
+import java.awt.*;
+public class param extends Applet
+{
+  String str;
+  public void init()
+  {
+    str=getParameter("pname");  
+    if (str == null)
+    str = "Welcome to studytonight.com";
+    str = "Hello " + str; 
+  }   
+    public void paint(Graphics g)
+    {
+      g.drawString(str, 200, 200);
+    }
+}
+  
