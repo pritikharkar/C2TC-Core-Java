@@ -1,3 +1,5 @@
+package com.applet;
+
 // import statement  
 
 import java.awt.*;    
