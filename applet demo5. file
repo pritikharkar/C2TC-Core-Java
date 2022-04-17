@@ -1,4 +1,4 @@
-
+pacakge com.applet;
 import java.applet.*;
 import java.awt.*;
 public class param extends Applet
