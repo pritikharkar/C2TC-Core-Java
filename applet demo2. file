@@ -1,3 +1,5 @@
+package com.applet;
+
 import java.awt.*;
 
 import java.awt.event.*;
