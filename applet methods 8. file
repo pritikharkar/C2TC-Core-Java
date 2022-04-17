@@ -1,3 +1,4 @@
+package com.applet;
 import java.awt.*;
 import java.applet.*;
 public class AppletTest extends Applet
