@@ -1,0 +1,55 @@
+package day20;
+
+import java.applet.Applet; 
+import java.awt.Graphics;
+
+//No need to extend JApplet, since we don't add any
+components; 
+//we just paint.
+ public class Life extends Applet {
+
+StringBuffer buffer;
+
+public void init() {
+
+buffer= new StringBuffer();
+ add item("initializing... ");
+
+}
+
+public void start() {
+
+additem("starting...");
+
+}
+
+public void stop() {
+
+additem("stopping...");
+
+}
+
+public void destroy() {
+
+additem("preparing for unloading...");
+
+}
+
+private void add Item(String newWord) {
+ System.out.println(newWord);
+ buffer.append(newWord);
+ repaint();
+
+}
+
+public void paint(Graphics g) { 
+//Draw a Rectangle around the applet's display area. g.drawRect(0, 0,
+
+getWidth()-1,
+ getHeight() - 1);
+
+//Draw the current string inside the rectangle. g.drawString(buffer.toString(), 5, 15);
+
+}
+
+}
