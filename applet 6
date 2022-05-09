@@ -1,0 +1,55 @@
+package day22;
+
+import java.applet.Applet;
+
+import java.awt.Button;
+
+import java.awt.Event; 
+import java.awt.TextField;
+
+import java.awt.Label;
+
+public class Applet4 extends Applet {
+
+/**
+
+*
+
+*/
+
+private static final long serialVersion UID=1L;
+//by clicking
+
+warning
+
+TextField t1,12,13;
+
+Label I;
+
+Button b; 
+public void init()
+
+add(t1 = new TextField(10)); 
+add(new Label("+"));
+
+add(t2 = new TextField(5));
+
+add(b = new Button (^ prime prime =^ prime prime ); 
+add(t3 = new TextField(15));
+
+} public boolean action (Event e, Object o)
+
+String s1=t1 t1.getText();
+
+int i= Integer.parseInt(s1); 
+String s * 2 = t ();
+ itj = Integer.parseInt(s2); 
+int k = i + j String S * 3 = String.valueOf(k);
+
+t3.setText(s3);
+
+return true;
+
+}
+
+}
