@@ -1,0 +1,12 @@
+package shopFactoryPac;
+
+public abstract class shopFactory {
+
+public primeAcc getNewPrimeAcc() {
+return null;
+}
+
+public GSNormalAcc getNewNormalAcc() {
+return null;
+}
+}
